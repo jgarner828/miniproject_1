@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*General page styles */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.2px;
+   }
+
+
+
+/* All navigation bar styles*/
+nav {
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    background-color: #0d72a8;
+    line-height: 75x;
+    z-index: 1;
+    position: fixed;
+    margin-bottom: 10px;
+
+    }
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+   }
+
+nav .logo p {
+    padding-top: 15px;
+    float: left;
+    color: antiquewhite;
+}
+
+nav ul {
+    float: right;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: antiquewhite;
+    padding: 32px;
+}
+
+/* General body of the page*/
+body {
+    background-color: #9ec7dc;
+    text-align: center;
+}
+
+#profilephoto {
+    width: 400px;
+    margin-top: 100px;
+}
+
+
+/*Contact form*/
+.contact{
+    margin-top: 100px;
+}
+
+label {
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;    
+}
+
+/* Footer area*/
+footer, h6 {
+    text-align: right;
+    padding: 20px;
+    font-size: 18px;
+    color: antiquewhite;
+
+}
